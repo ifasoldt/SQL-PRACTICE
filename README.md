@@ -69,4 +69,4 @@ Beauty, Toys & Sports|449496
 Sports|448410
 Query: SELECT items.category, SUM(orders.quantity * items.price) FROM items JOIN orders ON items.id = orders.item_id GROUP BY category ORDER BY SUM(orders.quantity * items.price) DESC LIMIT 3;
 
-![alt tag](screenshot)
+![alt tag](./screenshot)
